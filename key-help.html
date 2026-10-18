@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API keys - Tagwright</title>
+<meta name="description" content="Where to get an API key for Tagwright, what it can cost, and how it is stored.">
+<style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 46rem;
+      font: 1rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #ffffff; color: #1a1a1a;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f1419; color: #e6e6e6; }
+      a { color: #7cc4ff; }
+      th { background: #1a2029; }
+      td, th { border-color: #2b3440 !important; }
+      .lede, .meta { color: #a8b0ba !important; }
+    }
+    h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .5rem; }
+    h2 { font-size: 1.2rem; margin: 2.25rem 0 .5rem; }
+    h3 { font-size: 1rem; margin: 1.5rem 0 .35rem; }
+    .lede { color: #4a5560; margin: 0 0 1.5rem; }
+    .meta { color: #6b7480; font-size: .875rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin: .3rem 0; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    td, th { border: 1px solid #d7dce2; padding: .5rem .65rem; text-align: left; vertical-align: top; }
+    th { background: #f2f5f8; }
+    code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .92em; }
+    .lang { margin: 0 0 1.5rem; }
+    .lang a { margin-right: .75rem; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d7dce2; }
+</style>
+</head>
+<body>
+<h1>API keys</h1>
+<p class="lede">Tagwright has no AI of its own. You bring a key from a provider you choose — and you pay that provider
+directly.</p>
+<p class="lang"><a href="#en">English</a> <a href="#sv">Svenska</a></p>
+
+<h2 id="en">English</h2>
+
+<h3>Where you get a key</h3>
+<p>You create it on your provider's own website, under their API or developer section. <strong>The app never creates one for
+you and never sees your account.</strong> Any key that works with these providers works here:</p>
+<ul>
+  <li>Google Gemini</li>
+  <li>OpenAI</li>
+  <li>Anthropic</li>
+  <li>OpenRouter</li>
+  <li>DeepSeek</li>
+  <li>Any OpenAI-compatible endpoint — you supply its base address yourself</li>
+</ul>
+
+<h3>What it costs</h3>
+<p>The provider bills you directly for what you use, on their own price list. <strong>This app charges nothing for it and adds
+no fee of its own.</strong> Providers differ enormously in price, and the price of a single catalogue entry depends on the
+model and the size of the image — so <strong>check your provider's current price list before you start a large batch.</strong></p>
+<p>There is a free monthly allowance of <strong>200 images</strong>. One image means one photo that received an answer from the
+model; an object with three photos counts as three.</p>
+
+<h3>Keeping it safe</h3>
+<ul>
+  <li>Your key is stored in the <strong>Android Keystore</strong>, encrypted, and is <strong>excluded from backups</strong>.</li>
+  <li>If you restore the app to a new phone, you will need to enter the key again. That is deliberate.</li>
+  <li>Give the key the <strong>narrowest</strong> permissions your provider offers. Nothing here needs account-wide access.</li>
+  <li>If a key leaks, revoke it at the provider. Doing that does not affect your existing catalogue.</li>
+</ul>
+
+<h3>If a key stops working</h3>
+<p>The app will tell you which of three things happened: the key was rejected, your balance with the provider ran out, or the
+provider is unreachable. <strong>The queue pauses rather than burning through attempts</strong>, and you can resume it from
+Settings once the key works again.</p>
+
+<h2 id="sv">Svenska</h2>
+
+<h3>Var du skaffar en nyckel</h3>
+<p>Du skapar den på din leverantörs egen webbplats, under deras API- eller utvecklaravdelning. <strong>Appen skapar aldrig en
+nyckel åt dig och ser aldrig ditt konto.</strong> Alla nycklar som fungerar hos dessa leverantörer fungerar här:</p>
+<ul>
+  <li>Google Gemini</li>
+  <li>OpenAI</li>
+  <li>Anthropic</li>
+  <li>OpenRouter</li>
+  <li>DeepSeek</li>
+  <li>Valfri OpenAI-kompatibel endpoint — du anger basadressen själv</li>
+</ul>
+
+<h3>Vad det kostar</h3>
+<p>Leverantören fakturerar dig direkt för det du använder, enligt sin egen prislista. <strong>Appen tar inget betalt för det
+och lägger inte på någon egen avgift.</strong> Leverantörer skiljer sig enormt i pris, och priset för en katalogpost beror på
+modellen och bildens storlek — <strong>kontrollera leverantörens aktuella prislista innan du startar en stor körning.</strong></p>
+<p>Det finns en gratis månadskvot på <strong>200 bilder</strong>. En bild betyder ett foto som fått ett svar från modellen; ett
+objekt med tre foton räknas som tre.</p>
+
+<h3>Att hålla den säker</h3>
+<ul>
+  <li>Din nyckel lagras i <strong>Android Keystore</strong>, krypterad, och <strong>utesluts från backup</strong>.</li>
+  <li>Återställer du appen på en ny telefon måste du ange nyckeln igen. Det är avsiktligt.</li>
+  <li>Ge nyckeln den <strong>snävaste</strong> behörighet din leverantör erbjuder. Inget här behöver kontobred åtkomst.</li>
+  <li>Om en nyckel läcker ut: återkalla den hos leverantören. Det påverkar inte din befintliga katalog.</li>
+</ul>
+
+<h3>Om en nyckel slutar fungera</h3>
+<p>Appen säger vilket av tre saker som hände: nyckeln avvisades, ditt saldo hos leverantören tog slut, eller leverantören går
+inte att nå. <strong>Kön pausar i stället för att bränna igenom försök</strong>, och du kan återuppta den från Inställningar
+när nyckeln fungerar igen.</p>
+
+<footer>
+<p class="meta">Tagwright · <code>app.tagwright</code> · page updated 2026-10-26.
+<a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="key-help.html">API keys</a> ·
+<a href="terms.html">Terms</a></p>
+</footer>
+</body>
+</html>

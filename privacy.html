@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy - Tagwright</title>
+<meta name="description" content="What Tagwright does with your data: no server, no account, no telemetry. Photos go only to the AI provider you chose.">
+<style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 46rem;
+      font: 1rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #ffffff; color: #1a1a1a;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f1419; color: #e6e6e6; }
+      a { color: #7cc4ff; }
+      th { background: #1a2029; }
+      td, th { border-color: #2b3440 !important; }
+      .lede, .meta { color: #a8b0ba !important; }
+    }
+    h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .5rem; }
+    h2 { font-size: 1.2rem; margin: 2.25rem 0 .5rem; }
+    h3 { font-size: 1rem; margin: 1.5rem 0 .35rem; }
+    .lede { color: #4a5560; margin: 0 0 1.5rem; }
+    .meta { color: #6b7480; font-size: .875rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin: .3rem 0; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    td, th { border: 1px solid #d7dce2; padding: .5rem .65rem; text-align: left; vertical-align: top; }
+    th { background: #f2f5f8; }
+    code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .92em; }
+    .lang { margin: 0 0 1.5rem; }
+    .lang a { margin-right: .75rem; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d7dce2; }
+</style>
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p class="lede">Tagwright is a photo-cataloguing app for Android. This page says exactly what it does with your data.</p>
+<p class="lang"><a href="#en">English</a> <a href="#sv">Svenska</a></p>
+<p class="meta">Applies to the Android app <code>app.tagwright</code>. Last updated 2026-10-26.</p>
+
+<h2 id="en">English</h2>
+
+<h3>The short version</h3>
+<ul>
+  <li><strong>There is no server of ours.</strong> Your catalogue, your photos and your settings live on your phone.</li>
+  <li><strong>There is no account and no sign-up.</strong> We cannot identify you, because we never receive anything about you.</li>
+  <li><strong>Your photos go only to the AI provider you chose</strong>, with the key you entered — and only when you ask the
+      app to catalogue something.</li>
+  <li><strong>EXIF, GPS and XMP are stripped</strong> from every copy that is uploaded.</li>
+  <li><strong>Advertising is the only third party</strong>, and it is disclosed below.</li>
+</ul>
+
+<h3>What the app collects and where it goes</h3>
+<table>
+  <tr><th>What</th><th>Where it goes</th></tr>
+  <tr>
+    <td>Your photos</td>
+    <td><strong>Stays on your phone</strong>, except when you ask for metadata: then one copy is sent <em>directly from your
+        phone</em> to the AI provider whose key you entered. We are not in that path and never see the image.</td>
+  </tr>
+  <tr>
+    <td>The metadata the model returns</td>
+    <td><strong>Stays on your phone</strong>, in a local database.</td>
+  </tr>
+  <tr>
+    <td>Your API key</td>
+    <td>Stored in the <strong>Android Keystore</strong>, encrypted. It is <strong>never</strong> written to plain settings,
+        never written to a log, and <strong>excluded from Android's backup</strong>.</td>
+  </tr>
+  <tr>
+    <td>Your templates and settings</td>
+    <td><strong>Stays on your phone.</strong> Android's own auto-backup is enabled, so these — like most Android apps' data —
+        are copied to <strong>your own Google account</strong>, not to us. You control that in Android's settings.</td>
+  </tr>
+  <tr>
+    <td>A local error log</td>
+    <td>A bounded, on-device log that helps you report a problem. It <strong>never leaves the phone</strong> and is deleted
+        with the app.</td>
+  </tr>
+  <tr>
+    <td>Advertising data</td>
+    <td><strong>AdMob</strong>, only if ads are shown. See below.</td>
+  </tr>
+  <tr>
+    <td>Purchases</td>
+    <td><strong>Google Play Billing</strong>, for the optional Pro upgrade. We never see your payment details.</td>
+  </tr>
+</table>
+
+<h3>Advertising</h3>
+<p>The free version shows ads through <strong>Google AdMob</strong>. AdMob may collect a <em>device or other identifier</em>
+and use it to serve and measure ads. That is the <strong>only</strong> data collection that is not entirely under your control
+from inside the app, and it is why the app's Play data-safety declaration says that it collects data.</p>
+<ul>
+  <li><strong>No ads ever appear in the camera flow.</strong> Not before a photo, not after one, not while the queue runs.</li>
+  <li>In the EEA, the UK and Switzerland, <strong>a consent message appears before any personalised ad is loaded</strong>, and
+      you can change your choice afterwards.</li>
+  <li><strong>Pro removes ads entirely.</strong></li>
+</ul>
+
+<h3>What the app does NOT do</h3>
+<ul>
+  <li>No accounts, no login, no email address required.</li>
+  <li>No analytics, no telemetry, no crash reporting.</li>
+  <li>No selling or sharing of your data with anyone.</li>
+  <li>No cloud sync and no backend of ours.</li>
+  <li>No API keys sold inside the app, and no link to an external payment page.</li>
+  <li>It never modifies, moves or overwrites your original photos.</li>
+</ul>
+
+<h3>Your AI provider is a separate business</h3>
+<p>When the app sends a photo for cataloguing, <strong>you are using that provider's service under their terms and their
+privacy policy</strong>, not ours. What they do with the request is between you and them. You choose the provider, you enter
+your own key, and you can remove it at any time.</p>
+
+<h3>Deleting your data</h3>
+<ul>
+  <li><strong>Settings → Delete all data</strong> removes your objects, photos and settings from the phone.</li>
+  <li><strong>Uninstalling the app</strong> removes everything the app kept, including the error log and the stored key.</li>
+  <li>There is nothing to delete on our side, <strong>because there is nothing on our side.</strong></li>
+</ul>
+
+<h3>Children</h3>
+<p>The app is a tool for adults. It is not directed at children and does not knowingly collect anything from them.</p>
+
+<h3>Changes</h3>
+<p>If this policy changes, the date at the top of this page changes with it, and the new version applies from that date.</p>
+
+<h3>Contact</h3>
+<p><a href="mailto:CONTACT_ADDRESS">CONTACT_ADDRESS</a></p>
+
+<h2 id="sv">Svenska</h2>
+
+<h3>Kort version</h3>
+<ul>
+  <li><strong>Det finns ingen server hos oss.</strong> Din katalog, dina bilder och dina inställningar ligger på din telefon.</li>
+  <li><strong>Inget konto och ingen registrering.</strong> Vi kan inte identifiera dig, för vi tar aldrig emot något om dig.</li>
+  <li><strong>Dina bilder går bara till den AI-leverantör du valt</strong>, med den nyckel du angett — och bara när du ber appen
+      katalogisera något.</li>
+  <li><strong>EXIF, GPS och XMP strippas</strong> från varje exemplar som laddas upp.</li>
+  <li><strong>Annonsering är den enda tredje parten</strong>, och den redovisas nedan.</li>
+</ul>
+
+<h3>Vad appen samlar in, och var det hamnar</h3>
+<table>
+  <tr><th>Vad</th><th>Var det hamnar</th></tr>
+  <tr>
+    <td>Dina bilder</td>
+    <td><strong>Stannar på din telefon</strong>, utom när du begär metadata: då skickas <em>ett exemplar direkt från din
+        telefon</em> till den AI-leverantör vars nyckel du angett. Vi finns inte i den vägen och ser aldrig bilden.</td>
+  </tr>
+  <tr>
+    <td>Metadata som modellen svarar</td>
+    <td><strong>Stannar på din telefon</strong>, i en lokal databas.</td>
+  </tr>
+  <tr>
+    <td>Din API-nyckel</td>
+    <td>Lagras i <strong>Android Keystore</strong>, krypterad. Den skrivs <strong>aldrig</strong> till vanliga inställningar,
+        aldrig till en logg, och <strong>utesluts från Androids backup</strong>.</td>
+  </tr>
+  <tr>
+    <td>Dina mallar och inställningar</td>
+    <td><strong>Stannar på din telefon.</strong> Androids egen auto-backup är på, så detta kopieras — som för de flesta
+        Android-appar — till <strong>ditt eget Google-konto</strong>, inte till oss. Du styr det i Androids inställningar.</td>
+  </tr>
+  <tr>
+    <td>En lokal fellogg</td>
+    <td>En takbegränsad logg på enheten som hjälper dig rapportera ett fel. Den <strong>lämnar aldrig telefonen</strong> och
+        försvinner med appen.</td>
+  </tr>
+  <tr>
+    <td>Annonsdata</td>
+    <td><strong>AdMob</strong>, endast om annonser visas. Se nedan.</td>
+  </tr>
+  <tr>
+    <td>Köp</td>
+    <td><strong>Google Play Billing</strong>, för den valfria Pro-uppgraderingen. Vi ser aldrig dina betaluppgifter.</td>
+  </tr>
+</table>
+
+<h3>Annonser</h3>
+<p>Gratisversionen visar annonser via <strong>Google AdMob</strong>. AdMob kan samla in en <em>enhets- eller annan
+identifierare</em> och använda den för att visa och mäta annonser. Det är den <strong>enda</strong> datainsamling som inte
+helt styrs inifrån appen, och skälet till att appens data-safety-deklaration säger att den samlar in data.</p>
+<ul>
+  <li><strong>Inga annonser visas någonsin i kameraflytet.</strong> Inte före en bild, inte efter en, inte medan kön kör.</li>
+  <li>Inom EES, Storbritannien och Schweiz <strong>visas ett consent-meddelande innan någon personlig annons laddas</strong>,
+      och du kan ändra ditt val efteråt.</li>
+  <li><strong>Pro tar bort annonser helt.</strong></li>
+</ul>
+
+<h3>Vad appen INTE gör</h3>
+<ul>
+  <li>Inga konton, ingen inloggning, ingen e-postadress krävs.</li>
+  <li>Ingen analys, ingen telemetri, ingen kraschrapportering.</li>
+  <li>Ingen försäljning eller delning av dina data med någon.</li>
+  <li>Ingen molnsynk och ingen backend hos oss.</li>
+  <li>Inga API-nycklar säljs i appen, och ingen länk till en extern betalsida.</li>
+  <li>Den ändrar, flyttar eller skriver aldrig över dina originalbilder.</li>
+</ul>
+
+<h3>Din AI-leverantör är en egen verksamhet</h3>
+<p>När appen skickar en bild för katalogisering <strong>använder du den leverantörens tjänst under deras villkor och deras
+integritetspolicy</strong>, inte våra. Vad de gör med förfrågan är mellan dig och dem. Du väljer leverantör, du anger din egen
+nyckel, och du kan ta bort den när som helst.</p>
+
+<h3>Radera dina data</h3>
+<ul>
+  <li><strong>Inställningar → Radera all data</strong> tar bort dina objekt, bilder och inställningar från telefonen.</li>
+  <li><strong>Att avinstallera appen</strong> tar bort allt appen sparat, inklusive felloggen och den lagrade nyckeln.</li>
+  <li>Det finns inget att radera hos oss, <strong>för det finns inget hos oss.</strong></li>
+</ul>
+
+<h3>Barn</h3>
+<p>Appen är ett verktyg för vuxna. Den riktar sig inte till barn och samlar inte medvetet in något från dem.</p>
+
+<h3>Ändringar</h3>
+<p>Om policyn ändras ändras datumet högst upp på sidan med den, och den nya versionen gäller från det datumet.</p>
+
+<h3>Kontakt</h3>
+<p><a href="mailto:CONTACT_ADDRESS">CONTACT_ADDRESS</a></p>
+
+<footer>
+<p class="meta">Tagwright · <code>app.tagwright</code> · page updated 2026-10-26.
+<a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="key-help.html">API keys</a> ·
+<a href="terms.html">Terms</a></p>
+</footer>
+</body>
+</html>
