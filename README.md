@@ -1,1 +1,0 @@
-# Tagwright-AI-Photo-Metadata
